@@ -7,7 +7,7 @@
 <p><b>What went wrong in run B, in plain words:</b></p><ul>
 <li>The support-ticket request took 45 seconds, then the call said "Sorry, that took too long. Please try again." (the 45 s reply timeout fired). No ticket draft came from that turn.</li>
 <li>I then said "Yes, that one." twice. The server noticed speech each time but produced no transcript and no answer, so the call sat silent about 37 s each time.</li>
-<li>The confirm card only showed up later (it appeared in the state frames after the "pick the booking" question, before my "Yes."). When I said "Yes." the call correctly said "Tap the card on your screen to confirm." and sent nothing.</li>
+<li>A pending card was live from the interruption turn (the "which booking?" picker card), not a ticket draft. No ticket draft was ever created. When I said "Yes." the call correctly said "Tap the card on your screen to confirm." and sent nothing.</li>
 <li>Many answers (address, payout timing, tool question) end with the call asking which booking I mean, instead of answering. It never gave the address or the payout date in this recording.</li>
 <li>Interruption: the long payout answer was cut off about 0.24 s after I started talking, and the new question was answered.</li>
 <li>Length is longer than planned because of the silent waits above.</li></ul>
